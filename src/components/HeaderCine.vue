@@ -17,7 +17,7 @@
             </div>
 
             <div id="navmenu" class="navbar-menu">
-                <div  class="navbar-end">
+                <div @click="reload" class="navbar-end">
                     
                         <router-link  class="navbar-item " to="/" active-class="is-active"  exact>HOME</router-link>
                         <router-link  class="navbar-item" to="/pelicula" active-class="is-active" >ABOUT</router-link>
@@ -60,6 +60,17 @@ document.addEventListener('DOMContentLoaded', function () {
 
 export default {
 methods:{
+    reload(){
+        var $toggle = $(".navbar-menu")
+   var $menu = $(".navbar-burger")
+  //  $toggle.click(function() {
+  //   $(this).toggleClass('is-active');
+    
+  // });
+
+  $toggle.toggleClass('is-active');
+  $menu.toggleClass('is-active');
+    }
 
 }
 }

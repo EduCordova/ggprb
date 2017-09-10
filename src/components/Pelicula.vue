@@ -1,5 +1,12 @@
 <template>
-  <h1>Estas en Peliculas</h1>
+  <div class="container">
+<div class="column">
+  <center><h1>INFO</h1></center>
+</div>
+    
+
+  </div>
+
 </template>
 
 
