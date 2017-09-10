@@ -19,8 +19,8 @@
             <div id="navmenu" class="navbar-menu">
                 <div  class="navbar-end">
                     
-                        <router-link  class="navbar-item " to="/" active-class="is-active" tag="a" exact>HOME</router-link>
-                        <router-link  class="navbar-item" to="/pelicula" active-class="is-active" tag="a">ABOUT</router-link>
+                        <router-link  class="navbar-item " to="/" active-class="is-active"  exact>HOME</router-link>
+                        <router-link  class="navbar-item" to="/pelicula" active-class="is-active" >ABOUT</router-link>
                         
                 </div>
             </div>
